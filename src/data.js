@@ -35,6 +35,11 @@ import ReactJS from './assets/img/ReactJS.png';
 import TailWindCSS from './assets/img/TailWindCSS.png';
 import TailWindUI from './assets/img/TailWindUI.png';
 import TailWindUITemplates from './assets/img/TailWindUITemplates.png';
+import CookieImg from './assets/img/cookie.jpg';
+
+export const cookies = {
+  image : <CookieImg />
+}
 
 export const features = {
   image: <Features1Img />,

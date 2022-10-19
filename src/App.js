@@ -11,10 +11,12 @@ import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import Contact from './components/Contact'
 import Wwu from './components/Wwu';
+import CookiePopUp from './components/CookiePopUp';
 
 const App = () => {
   return (
     <div>
+      <CookiePopUp />
       <div className='w-full max-w-[1440px] mx-auto bg-white'>
         <Header />
         <Hero />
