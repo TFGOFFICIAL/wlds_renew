@@ -54,5 +54,6 @@
     "CONTACT_EM_TITLE" : "Email:",
     "CONTACT_EM_PLACEHOLDER" : "Email ...",
     "CONTACT_ME_TITLE" : "Nachricht:",
-    "CONTACT_BTN_TXT" : "KONTAKT"
+    "CONTACT_BTN_TXT" : "KONTAKT",
+    "COOKIE_TXT" : "Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu erhöhen."
 }

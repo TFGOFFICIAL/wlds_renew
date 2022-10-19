@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96339907.css",
-    "main.js": "/static/js/main.195c13f5.js",
+    "main.js": "/static/js/main.3777dfa1.js",
     "static/media/sombre.png": "/static/media/sombre.ef3280f9d1d017baf398.png",
     "static/media/lighting.png": "/static/media/lighting.2e37f38a86191cab3fa1.png",
     "static/media/web.png": "/static/media/web.fcf6160e9b66bc99609b.png",
@@ -9,6 +9,7 @@
     "static/media/bed.png": "/static/media/bed.dd855487ed0004d0f148.png",
     "static/media/chair.png": "/static/media/chair.ba316a1d15e92158d60e.png",
     "static/media/cupboard.png": "/static/media/cupboard.3a6ac29c4c1c7e0030cb.png",
+    "static/media/cookie.png": "/static/media/cookie.3f1af84bc8b241d6d1fc.png",
     "static/media/feature-1.jpg": "/static/media/feature-1.f9408d045ca7c43f6ae6.jpg",
     "static/media/testimonial.jpg": "/static/media/testimonial.6becdb5777260ef765a0.jpg",
     "static/media/TailWindCSS.png": "/static/media/TailWindCSS.5202cef129ee1c5ef761.png",
@@ -16,28 +17,18 @@
     "static/media/TailWindUITemplates.png": "/static/media/TailWindUITemplates.32eced6766cba7ba2d11.png",
     "static/media/features-2.jpeg": "/static/media/features-2.5f19b2c209d90bae1a64.jpeg",
     "static/media/NodeJS.png": "/static/media/NodeJS.971da86de27ff61f3408.png",
-    "static/media/product-10.png": "/static/media/product-10.c5ec2f5da9a0e5b83a4d.png",
     "static/media/logo.png": "/static/media/logo.43d3fc72d4386525de58.png",
-    "static/media/product-2.png": "/static/media/product-2.478798e88d77b77b18ae.png",
-    "static/media/product-4.png": "/static/media/product-4.e2e28d6f16d6205d8c3c.png",
     "static/media/ReactJS.png": "/static/media/ReactJS.39608d2015e1cf262bf9.png",
-    "static/media/product-3.png": "/static/media/product-3.f7f05e1059234192e329.png",
-    "static/media/product-1.png": "/static/media/product-1.81415b4b2db67c206362.png",
-    "static/media/product-6.png": "/static/media/product-6.3b4bb863c7c4e93feac6.png",
-    "static/media/product-5.png": "/static/media/product-5.5dbb6e9b8088ee311423.png",
-    "static/media/product-8.png": "/static/media/product-8.7b2ec61f985cc403475b.png",
     "static/media/avatar-3.png": "/static/media/avatar-3.139cf9bf423382872360.png",
-    "static/media/product-7.png": "/static/media/product-7.8303cc75d8385719633d.png",
     "static/media/avatar-2.png": "/static/media/avatar-2.ae52c9a34ee0972574e2.png",
     "static/media/avatar-1.png": "/static/media/avatar-1.aabbb166b2124eb5f652.png",
-    "static/media/product-9.png": "/static/media/product-9.88d9b287cf8cdba409c3.png",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.96339907.css.map": "/static/css/main.96339907.css.map",
-    "main.195c13f5.js.map": "/static/js/main.195c13f5.js.map"
+    "main.3777dfa1.js.map": "/static/js/main.3777dfa1.js.map"
   },
   "entrypoints": [
     "static/css/main.96339907.css",
-    "static/js/main.195c13f5.js"
+    "static/js/main.3777dfa1.js"
   ]
 }
