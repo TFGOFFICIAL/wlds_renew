@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section id='home' className='h-full max-h-[850px] w-full bg-hero bg-right lg:bg-center bg-cover bg-no-repeat text-white pt-[225px] pb-[254px] relative mb-12 lg:mb-28'>
       <div className='container mx-auto text-center'>
-        <div className='bg-white/90 text-black mb-[160px] lg:mb-[194px] rounded-2xl py-10'>
+        <div className='bg-white/90 text-black mb-[160px] lg:mb-[194px] rounded-2xl py-10 px-5 lg:px-0'>
           <h1 className='text-2xl lg:text-[64px] lg:leading-tight lg:max-w-[888px] mx-auto font-semibold mb-[30px]'>
             {t("HERO_TITLE")}
           </h1>
