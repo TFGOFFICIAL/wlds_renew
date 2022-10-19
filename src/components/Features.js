@@ -1,10 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 // import data
 import { features } from '../data';
 
 const Features = () => {
-  const { title, image, items } = features;
+  const { image, items } = features;
+  const { t } = useTranslation()
   return (
     <section className='section'>
       <div className='container mx-auto'>
@@ -15,19 +17,19 @@ const Features = () => {
           </div>
           {/* text */}
           <div className='flex-1 flex flex-col justify-end'>
-            <h2 className='title'>{title}</h2>
+            <h2 className='title'>{t('FEATURE_1_TITLE')}</h2>
             {/* items */}
             <div id='features'>
               {items.map((item, index) => {
-                const { icon, title, subtitle } = item;
+                const { icon } = item;
                 return (
                   <div className='flex mb-6 lg:last:mb-0' key={index}>
                     <div className='text-2xl lg:text-3xl mr-4'>{icon}</div>
                     <div>
                       <h4 className='text-base lg:text-xl font-semibold mb-3'>
-                        {title}
+                        {t(`FEATURE_1_ITEM_${index + 1}_TITLE`)}
                       </h4>
-                      <p>{subtitle}</p>
+                      <p>{t(`FEATURE_1_ITEM_${index + 1}_SUBTITLE`)}</p>
                     </div>
                   </div>
                 );

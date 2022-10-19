@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -8,6 +9,7 @@ import 'swiper/css/pagination';
 import { wwu } from '../data';
 
 const WWUSlider = () => {
+  const { t } = useTranslation()
   return (
     <Swiper
       grabCursor={true}
@@ -29,7 +31,7 @@ const WWUSlider = () => {
             <div className='flex flex-col p-5 lg:p-10 rounded-2xl shadow-xl border'>
               <img src={item.image.type} alt='' />
               <div className='text-black bottom-[20px] text-center w-full text-[18px] lg:text-2xl font-medium capitalize mt-5'>
-                {item.title}
+                {t(`WWU_ITEM_${index + 1}_TITLE`)}
               </div>
             </div>
           </SwiperSlide>

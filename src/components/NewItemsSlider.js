@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -8,6 +9,7 @@ import 'swiper/css/pagination';
 import { newInStore } from '../data';
 
 const NewItemsSlider = () => {
+  const { t } = useTranslation()
   return (
     <Swiper
       grabCursor={true}
@@ -29,7 +31,7 @@ const NewItemsSlider = () => {
             <div className='relative'>
               <img className='rounded-2xl' src={product.image.type} alt='' />
               <div className='absolute text-white bottom-[20px] text-center w-full text-[18px] lg:text-2xl font-medium capitalize'>
-                {product.name}
+                {t(`FOLLOWUP_ITEM_${index + 1}_NAME`)}
               </div>
             </div>
           </SwiperSlide>

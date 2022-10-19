@@ -36,129 +36,60 @@ import TailWindCSS from './assets/img/TailWindCSS.png';
 import TailWindUI from './assets/img/TailWindUI.png';
 import TailWindUITemplates from './assets/img/TailWindUITemplates.png';
 
-export const navigation = [
-  {
-    name: 'home',
-    href: '#home',
-  },
-  {
-    name: 'about',
-    href: '#stats',
-  },
-  {
-    name: 'features',
-    href: '#features',
-  },
-  {
-    name: 'contact',
-    href: '#contact',
-  },
-];
-
-export const hero = {
-  title: 'Logic Web Design',
-  subtitle: `Founded for non-programmers people. We wanted to replace the CMS. Don't have time to code your website?`,
-  buttonText: 'Request',
-};
-
-export const stats = [
-  {
-    value: '3+',
-    text: 'Year Experience',
-  },
-  {
-    value: '30+',
-    text: 'Websites Built',
-  },
-  {
-    value: '500+',
-    text: 'Web Components',
-  },
-  {
-    value: '10+',
-    text: 'Website Templates',
-  },
-];
-
 export const features = {
   image: <Features1Img />,
-  title: 'Websites',
-  buttonText: 'Show Now',
   items: [
     {
       icon: <IoIosCheckmarkCircle />,
-      title: 'Portfolio websites',
-      subtitle: 'Do you need a portfolio website?',
     },
     {
       icon: <IoIosCheckmarkCircle />,
-      title: 'Online shops',
-      subtitle: 'We can also make an Online Shop.',
     },
     {
       icon: <IoIosCheckmarkCircle />,
-      title: 'Management websites',
-      subtitle: 'Or maybe you need a management website?',
     },
   ],
   feature2: {
     image: <Features2Img />,
-    title: 'Built to your needs',
-    subtitle: `WLDS is a service company that create websites according to clients needs. You don't have a website yet? Contact us!`,
   },
 };
 
 export const wwu = {
-  title: 'What we use?',
-  subtitle: `NodeJS, ReactJS, Tailwind etc. A couple things we'll use to build your website`,
   items: [
     {
       image: <NodeJS />,
-      title: 'NodeJS',
     },
     {
       image: <ReactJS />,
-      title: 'ReactJS',
     },
     {
       image: <TailWindCSS />,
-      title: 'TailwindCSS',
     },
     {
       image: <TailWindUI />,
-      title: 'TailwindUI',
     },
     {
       image: <TailWindUITemplates />,
-      title: 'Templates',
     },
   ]
 };
 
 export const newInStore = {
-  title: 'Follow-up',
-  subtitle: 'You will be informed & advised on all aspects of your website.',
-  link: 'Check all',
   icon: <IoIosArrowRoundForward />,
   products: [
     {
-      name: 'WEB',
       image: <ChairImg />,
     },
     {
-      name: 'WEB HOSTING',
       image: <BedImg />,
     },
     {
-      name: 'CODE',
       image: <CupboardImg />,
     },
     {
-      name: 'NEWSLETTER',
       image: <LightingImg />,
     },
     {
-      name: 'ONLINE PAYMENT',
       image: <Web />,
     }
   ],
@@ -321,8 +252,6 @@ export const products = {
 };
 
 export const testimonial = {
-  title: 'Web components',
-  subtitle: 'Need clients opinions on your website?',
   image: <TestimonialImg />,
   persons: [
     {
@@ -349,13 +278,6 @@ export const testimonial = {
   ],
 };
 
-export const newsletter = {
-  title: 'Want to be notified?',
-  subtitle: 'Join our mailing list.',
-  placeholder: 'Your email address',
-  buttonText: 'Join',
-};
-
 export const footer = {
   social: [
     {
@@ -370,6 +292,5 @@ export const footer = {
       icon: <IoLogoFacebook />,
       href: 'https://www.facebook.com/profile.php?id=100086852616521',
     },
-  ],
-  copyright: 'WLDS 2022 - All Rights Reserved.',
+  ]
 };
