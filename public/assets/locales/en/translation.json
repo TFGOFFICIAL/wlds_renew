@@ -53,5 +53,6 @@
     "CONTACT_LN_PLACEHOLDER" : "Lastname ...",
     "CONTACT_EM_TITLE" : "Email:",
     "CONTACT_EM_PLACEHOLDER" : "Email ...",
-    "CONTACT_ME_TITLE" : "Message:"
+    "CONTACT_ME_TITLE" : "Message:",
+    "CONTACT_BTN_TXT" : "CONTACT"
 }

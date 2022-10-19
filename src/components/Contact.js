@@ -86,7 +86,7 @@ export default function Contact() {
                 </div>
                 <textarea onChange={(e) => {setMessage(e.target.value);}} className='border w-[65vw] lg:w-[700px]' />
               </div>
-              <div className='w-full flex flex-row justify-end mt-10'><button onClick={() => {createContact(firstname, lastname, email, message);}} className='px-3 py-2 bg-gray-600 hover:bg-gray-800 text-white rounded-full'>CONTACT</button></div>
+              <div className='w-full flex flex-row justify-end mt-10'><button onClick={() => {createContact(firstname, lastname, email, message);}} className='px-3 py-2 bg-gray-600 hover:bg-gray-800 text-white rounded-full'>{t("CONTACT_BTN_TXT")}</button></div>
             </div>
           </div>
         </div>
