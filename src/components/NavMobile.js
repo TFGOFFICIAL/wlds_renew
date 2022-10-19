@@ -10,15 +10,15 @@ function classNames(...classes) {
 const languages = [
   {
     code: 'fr',
-    name: 'Français'
+    name: 'FR'
   },
   {
     code: 'en',
-    name: 'English'
+    name: 'EN'
   },
   {
     code: 'de',
-    name: 'Deutsch'
+    name: 'DE'
   },
 ]
 
@@ -52,7 +52,7 @@ const NavMobile = () => {
           <ul className='flex flex-row'>
             {languages.map(({code, name}) => {
               return (
-                <li key={code}><button disabled={code === currentLanguageCode} onClick={() => {i18next.changeLanguage(code)}} className={classNames((code === currentLanguageCode) ? 'text-accent' : 'text-black', 'px-1')}>{code}</button></li>
+                <li key={code}><button disabled={code === currentLanguageCode} onClick={() => {i18next.changeLanguage(code)}} className={classNames((code === currentLanguageCode) ? 'text-accent' : 'text-black', 'px-1')}>{name}</button></li>
               );
             })}
           </ul>                
