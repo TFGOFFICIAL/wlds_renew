@@ -30,7 +30,7 @@ module.exports = {
         pink: 'pink',
       },
       backgroundImage: {
-        hero: 'url("/src/assets/img/sombre.png")',
+        hero: 'url("/src/assets/img/sombre.jpg")',
         newsletter: 'url("/src/assets/img/newsletter.png")',
       },
       dropShadow: {
