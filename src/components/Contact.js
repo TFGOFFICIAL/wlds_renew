@@ -27,11 +27,13 @@ export default function Contact() {
     if(fn !== "" && ln !== "" && em !== "" && ms !== ""){
       await addDoc(contactRef, {firstname: fn, lastname: ln, email: em, message: ms});
       resetForm();
-      setError(false);
-      setSuccess(true)
+      setError(false); 
+      setSuccess(true);
+      setTimeout(function() { setSuccess(false); }, 3000);
     }else {
-      setSuccess(false);
+      setSuccess(false);      
       setError(true);
+      setTimeout(function() { setError(false); }, 3000);
     }   
   };
 
