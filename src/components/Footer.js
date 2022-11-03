@@ -8,9 +8,9 @@ import { footer } from '../data';
 
 const Footer = () => {
   return (
-    <footer className='section bg-primary text-white'>
+    <footer className='section bg-primary text-white py-10'>
       <div className='container mx-auto'>
-        <div className='flex flex-col items-center lg:flex-row lg:justify-between border-b border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14'>
+        <div className='flex flex-col items-center lg:flex-row lg:justify-between border-b border-opacity-75 border-gray-700 pb-5 lg:pb-5 mb-5'>
           <a className='mb-6 lg:mb-0' href='#'>
             <img className='h-8 lg:h-10' src={Logo} alt='' />
           </a>
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <p className='text-center'>
           {/*&copy; WLDS 2022 - All Rights Reserved.*/}
-          2022 WLDS
+          2022 Logic Web Design
         </p>
       </div>
     </footer>

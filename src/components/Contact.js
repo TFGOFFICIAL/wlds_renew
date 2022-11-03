@@ -11,8 +11,8 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [formKey, setFormkey] = useState(0)
-  const [error, setError] = useState("");
-  const [success, setSuccess] = useState("");
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const resetForm = () => {
     setFirstname("");
@@ -27,11 +27,11 @@ export default function Contact() {
     if(fn !== "" && ln !== "" && em !== "" && ms !== ""){
       await addDoc(contactRef, {firstname: fn, lastname: ln, email: em, message: ms});
       resetForm();
-      setError("");
-      setSuccess("Contact sent, we'll send you a mail as quick as possible!")
+      setError(false);
+      setSuccess(true)
     }else {
-      setSuccess("");
-      setError("You forgot a required field!");
+      setSuccess(false);
+      setError(true);
     }   
   };
 
@@ -42,9 +42,10 @@ export default function Contact() {
           <div className='flex-1 flex flex-col justify-end'>
             <h2 className='title'>{t("CONTACT_TITLE")}</h2>
             <div className='subtitle flex flex-col lg:flex-row'>{t("CONTACT_SUBTITLE_1")}<div className='text-violet-700 lg:mx-1'>{t("CONTACT_SUBTITLE_2")}</div>{t("CONTACT_SUBTITLE_3")}</div>
-            <div className='flex flex-row justify-center w-full mt-5'>
-              {error && <div className='bg-gradient-to-r from-red-600 to-red-500 py-5 px-10 rounded-full shadow-2xl text-white'>{error}</div>}
-              {success && <div className='bg-gradient-to-r from-green-600 to-green-500 py-5 px-10 rounded-full shadow-2xl text-white'>{success}</div>}
+            <div className='subtitle flex flex-col'>{t("CONTACT_EMAIL_ADDRESSE")}<div className='text-violet-700'>{t("CONTACT_EA")}</div></div>             
+            <div className='flex flex-row justify-center w-full mt-5 transition-all duration-500'>
+              {error && <div className='bg-gradient-to-r from-red-600 to-red-500 py-5 px-10 rounded-full shadow-2xl text-white'>{t("ERROR")}</div>}
+              {success && <div className='bg-gradient-to-r from-green-600 to-green-500 py-5 px-10 rounded-full shadow-2xl text-white'>{t("SUCCESS")}</div>}
             </div>
             <div key={formKey} className='flex flex-col mx-auto border p-10 mt-10 rounded-2xl shadow-xl'>
               <div className='flex flex-col lg:flex-row lg:gap-20 mb-10'>
