@@ -22,7 +22,7 @@
     "FEATURE_1_ITEM_3_TITLE" : "Management websites",
     "FEATURE_1_ITEM_3_SUBTITLE" : "Or maybe you need a management website?",
     "FEATURE_2_TITLE" : "Built to your needs",
-    "FEATURE_2_SUBTITLE" : "WLDS is a service company that create websites according to clients needs. You don't have a website yet? Contact us!",
+    "FEATURE_2_SUBTITLE" : "Logic Web Design is a company that create websites according to clients needs. You don't have a website yet? Contact us!",
     "WWU_TITLE" : "What we use?",
     "WWU_SUBTITLE" : "NodeJS, ReactJS, Tailwind etc. A couple things we'll use to build your website.",
     "WWU_ITEM_1_TITLE" : "NodeJS",
@@ -31,7 +31,7 @@
     "WWU_ITEM_4_TITLE" : "TailwindUI",
     "WWU_ITEM_5_TITLE" : "Templates",
     "FOLLOWUP_TITLE" : "Follow-up",
-    "FOLLOWUP_SUBTITLE" : "You will be informed & advised on all aspects of your website.",
+    "FOLLOWUP_SUBTITLE" : "100% Swiss web hosting. Your site will be coded in ReactJS. We use TailWind to improve the visual of your site but also for our web components.",
     "FOLLOWUP_ITEM_1_NAME" : "WEB",
     "FOLLOWUP_ITEM_2_NAME" : "WEB HOSTING",
     "FOLLOWUP_ITEM_3_NAME" : "CODE",
@@ -47,6 +47,8 @@
     "CONTACT_SUBTITLE_1" : "We speak the following languages: ",
     "CONTACT_SUBTITLE_2" : "Français, English.",
     "CONTACT_SUBTITLE_3" : "Please contact us in these languages.",
+    "CONTACT_EMAIL_ADDRESSE" : "Your requests will be stored in a database. You can also contact us at the following email address:",
+    "CONTACT_EA" : "contact@logic-web-design.com",
     "CONTACT_FN_TITLE" : "Firstname:",
     "CONTACT_FN_PLACEHOLDER" : "Firstname ...",
     "CONTACT_LN_TITLE" : "Lastname:",
@@ -55,5 +57,7 @@
     "CONTACT_EM_PLACEHOLDER" : "Email ...",
     "CONTACT_ME_TITLE" : "Message:",
     "CONTACT_BTN_TXT" : "CONTACT",
-    "COOKIE_TXT" : "This website uses cookies to enhance the user experience."
+    "COOKIE_TXT" : "This website uses cookies to enhance the user experience.",
+    "ERROR" : "You forgot a required field!",
+    "SUCCESS" : "Contact sent, we'll send you a mail as quick as possible!"
 }

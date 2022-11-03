@@ -22,7 +22,7 @@
     "FEATURE_1_ITEM_3_TITLE" : "Sites Web de Management",
     "FEATURE_1_ITEM_3_SUBTITLE" : "Peut-être vous auriez besoin d'un site web de management ?",
     "FEATURE_2_TITLE" : "Créé selon vos besoins",
-    "FEATURE_2_SUBTITLE" : "WLDS est une société de services qui crée des sites web selon les besoins des clients. Vous n'avez pas encore de site web ? Contactez nous !",
+    "FEATURE_2_SUBTITLE" : "Logic Web Design est une entreprise qui crée des sites web selon les besoins des clients. Vous n'avez pas encore de site web ? Contactez nous !",
     "WWU_TITLE" : "Qu'utilisons-nous ?",
     "WWU_SUBTITLE" : "NodeJS, ReactJS, Tailwind etc. Voici quelques éléments utilisé pour la création des sites.",
     "WWU_ITEM_1_TITLE" : "NodeJS",
@@ -31,7 +31,7 @@
     "WWU_ITEM_4_TITLE" : "TailwindUI",
     "WWU_ITEM_5_TITLE" : "Templates",
     "FOLLOWUP_TITLE" : "Suivis",
-    "FOLLOWUP_SUBTITLE" : "Vous serez informé et conseillé tout au long de la construction de votre site web.",
+    "FOLLOWUP_SUBTITLE" : "Hébergement web 100% suisse. Votre site sera codé en ReactJS. Nous utilisons TailWind pour améliorer le visuel de votre site mais également pour nos composants web.",
     "FOLLOWUP_ITEM_1_NAME" : "WEB",
     "FOLLOWUP_ITEM_2_NAME" : "HEBERGEMENT WEB",
     "FOLLOWUP_ITEM_3_NAME" : "CODE",
@@ -47,6 +47,8 @@
     "CONTACT_SUBTITLE_1" : "Nous parlons les langues suivantes: ",
     "CONTACT_SUBTITLE_2" : "Français, English.",
     "CONTACT_SUBTITLE_3" : "Merci de nous contacter dans ces langues.",
+    "CONTACT_EMAIL_ADDRESSE" : "Vos demandes seront stockées dans une base de donnée. Vous pouvez également nous contacter à l'adresse mail suivante :",
+    "CONTACT_EA" : "contact@logic-web-design.com",
     "CONTACT_FN_TITLE" : "Prénom:",
     "CONTACT_FN_PLACEHOLDER" : "Prénom ...",
     "CONTACT_LN_TITLE" : "Nom:",
@@ -55,5 +57,7 @@
     "CONTACT_EM_PLACEHOLDER" : "Email ...",
     "CONTACT_ME_TITLE" : "Message:",
     "CONTACT_BTN_TXT" : "CONTACT",
-    "COOKIE_TXT" : "Ce site web utilise des cookies pour améliorer l'expérience de l'utilisateur."
+    "COOKIE_TXT" : "Ce site web utilise des cookies pour améliorer l'expérience de l'utilisateur.",
+    "ERROR" : "Vous avez oublié un champ obligatoire !",
+    "SUCCESS" : "Contact envoyé, nous vous enverrons un mail aussi vite que possible !"
 }

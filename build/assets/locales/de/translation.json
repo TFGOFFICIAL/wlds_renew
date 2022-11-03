@@ -22,7 +22,7 @@
     "FEATURE_1_ITEM_3_TITLE" : "Management-Websites",
     "FEATURE_1_ITEM_3_SUBTITLE" : "Oder brauchen Sie vielleicht eine Management-Website?",
     "FEATURE_2_TITLE" : "Auf Ihre Bedürfnisse zugeschnitten",
-    "FEATURE_2_SUBTITLE" : "WLDS ist ein Dienstleistungsunternehmen, das Websites nach den Bedürfnissen der Kunden erstellt. Sie haben noch keine Website? Kontaktieren Sie uns!",
+    "FEATURE_2_SUBTITLE" : "Logic Web Design ist ein Dienstleistungsunternehmen, das Websites nach den Bedürfnissen der Kunden erstellt. Sie haben noch keine Website? Kontaktieren Sie uns!",
     "WWU_TITLE" : "Was verwenden wir?",
     "WWU_SUBTITLE" : "NodeJS, ReactJS, Tailwind usw. Ein paar Dinge, die wir für die Erstellung Ihrer Website verwenden werden.",
     "WWU_ITEM_1_TITLE" : "NodeJS",
@@ -31,7 +31,7 @@
     "WWU_ITEM_4_TITLE" : "TailwindUI",
     "WWU_ITEM_5_TITLE" : "Templates",
     "FOLLOWUP_TITLE" : "Nachbereitung",
-    "FOLLOWUP_SUBTITLE" : "Sie werden über alle Aspekte Ihrer Website informiert und beraten.",
+    "FOLLOWUP_SUBTITLE" : "Webhosting zu 100% in der Schweiz. Ihre Website wird in ReactJS codiert. Wir verwenden TailWind, um die Optik Ihrer Seite zu verbessern, aber auch für unsere Webkomponenten.",
     "FOLLOWUP_ITEM_1_NAME" : "WEB",
     "FOLLOWUP_ITEM_2_NAME" : "WEB-HOSTING",
     "FOLLOWUP_ITEM_3_NAME" : "CODE",
@@ -47,6 +47,8 @@
     "CONTACT_SUBTITLE_1" : "Wir sprechen die folgenden Sprachen: ",
     "CONTACT_SUBTITLE_2" : "Français, English.",
     "CONTACT_SUBTITLE_3" : "Bitte kontaktieren Sie uns in diesen Sprachen.",
+    "CONTACT_EMAIL_ADDRESSE" : "Ihre Anfragen werden in einer Datenbank gespeichert. Sie können uns auch unter der folgenden E-Mail-Adresse kontaktieren:",
+    "CONTACT_EA" : "contact@logic-web-design.com",
     "CONTACT_FN_TITLE" : "Vorname:",
     "CONTACT_FN_PLACEHOLDER" : "Vorname ...",
     "CONTACT_LN_TITLE" : "Nachname:",
@@ -55,5 +57,7 @@
     "CONTACT_EM_PLACEHOLDER" : "Email ...",
     "CONTACT_ME_TITLE" : "Nachricht:",
     "CONTACT_BTN_TXT" : "KONTAKT",
-    "COOKIE_TXT" : "Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu erhöhen."
+    "COOKIE_TXT" : "Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu erhöhen.",
+    "ERROR" : "Sie haben ein Pflichtfeld vergessen!",
+    "SUCCESS" : "Kontakt gesendet, wir werden Ihnen so schnell wie möglich eine Mail schicken!"
 }
