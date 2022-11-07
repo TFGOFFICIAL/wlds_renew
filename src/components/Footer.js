@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 // import logo
 import Logo from '../assets/img/logo.png';
@@ -8,6 +9,7 @@ import SwissMade from '../assets/img/swiss-made.png';
 import { footer } from '../data';
 
 const Footer = () => {
+  const { t } = useTranslation()
   return (
     <footer className='section bg-primary text-white py-10'>
       <div className='container mx-auto'>
@@ -33,8 +35,11 @@ const Footer = () => {
         </div>
         <p className='text-center'>
           {/*&copy; WLDS 2022 - All Rights Reserved.*/}
-          2022 Logic Web Design
+          2022 Logic Web Design          
         </p>
+        <div className='w-full flex flex-col items-center'>
+          <a className='underline' target='blank' href='https://legal-informations-logicwebdesign.netlify.app/'>{t("MENTIONS")}</a>
+        </div>
       </div>
     </footer>
   );

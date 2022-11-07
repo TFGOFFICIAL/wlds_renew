@@ -59,5 +59,6 @@
     "CONTACT_BTN_TXT" : "CONTACT",
     "COOKIE_TXT" : "This website uses cookies to enhance the user experience.",
     "ERROR" : "You forgot a required field!",
-    "SUCCESS" : "Contact sent, we'll send you a mail as quick as possible!"
+    "SUCCESS" : "Contact sent, we'll send you a mail as quick as possible!",
+    "MENTIONS" : "Legal Informations"
 }

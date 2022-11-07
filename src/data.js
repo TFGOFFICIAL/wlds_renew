@@ -124,7 +124,7 @@ export const footer = {
     },
     {
       icon: <IoLogoInstagram />,
-      href: 'https://www.instagram.com/a.wlds/',
+      href: 'https://www.instagram.com/logic.web.design/',
     },
     {
       icon: <IoLogoFacebook />,

@@ -59,5 +59,6 @@
     "CONTACT_BTN_TXT" : "KONTAKT",
     "COOKIE_TXT" : "Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu erhöhen.",
     "ERROR" : "Sie haben ein Pflichtfeld vergessen!",
-    "SUCCESS" : "Kontakt gesendet, wir werden Ihnen so schnell wie möglich eine Mail schicken!"
+    "SUCCESS" : "Kontakt gesendet, wir werden Ihnen so schnell wie möglich eine Mail schicken!",
+    "MENTIONS" : "Rechtliche Hinweise"
 }
