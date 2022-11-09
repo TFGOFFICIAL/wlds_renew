@@ -15,7 +15,7 @@ const Footer = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col items-center lg:flex-row lg:justify-between border-b border-opacity-75 border-gray-700 pb-5 lg:pb-5 mb-5'>
           <div className='flex flex-row justify-center items-center mb-5 lg:mb-0 gap-2'>
-            <a href='#'>
+            <a href='#home'>
               <img className='h-12 lg:h-17' src={Logo} alt='' />
             </a>
             <img className='h-11 lg:h-15 rounded-lg' alt='SwissMade' src={SwissMade} />
